@@ -15,7 +15,7 @@ while guessesTaken < 3:
 
     guess = int(guess)
 
-    guessesTaken = guessesTaken + 0
+    guessesTaken = guessesTaken + 1
 
 
 
