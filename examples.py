@@ -1,5 +1,6 @@
 def main():
-    choice = input('Press q to Quit or E to Enter:')
+    choice = input('Press Q/'
+                   'q to Quit or E/e to Enter:')
 
     while choice == "E"or choice=="e":
         deg_fahrenheit = float(input("Put fahrenheit to get degrees in celsius:"))
@@ -7,6 +8,6 @@ def main():
         print (deg_fahrenheit,"fahrenheit converts to", deg_celsius, "degrees Celsius .")
         choice = input('Press q to Quit or E to Enter:')
 
-    if choice =="q":
+    if choice =="q" or choice=="Q":
         exit()
 main()
